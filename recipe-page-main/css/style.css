@@ -1,0 +1,153 @@
+/* Reseting Presets */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3e5d8;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+/* Styling the Main Content */
+#main-div {
+    margin: 2rem auto;
+    background-color: #fff;
+    height: 100rem;
+    width: 50rem;
+    padding: 2rem 2rem;
+    border-radius: 2rem;
+}
+
+#main-div p {
+    padding: 1rem 0;
+}
+
+#main-div h2 {
+    color: #835c54;
+    font-family: "Outfit";
+}
+
+/* Styling The Image */
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+/* Styling the Preparation Container */
+#prep-time {
+    background-color: #fff7fc;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-family: "Outfit";
+    margin-bottom: 1rem;
+}
+
+#prep-time h2 {
+    font-size: 20px;
+    color: #7d4860;
+    margin-bottom: 1rem;
+}
+
+#prep-time ul {
+    list-style: disc;
+    padding-left: 2rem;
+    color: #7d4860;
+    font-size: 15px;
+}
+
+#prep-time li {
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+#prep-time span {
+    font-weight: lighter;
+}
+
+/* Styling the Ingredients Container */
+#ingredients {
+    margin-bottom: 1rem;
+}
+
+#ingredients-list {
+    list-style-type: disc;
+    color: #7d4860;
+    padding: 1.5rem;
+}
+
+#ingredients-list li::marker {
+    color: #7d4860;
+}
+
+.ing-li {
+    color: #8a8886 ;
+    padding: 0 0 1rem 1rem;
+}
+
+/* Styling the Instructions Container */
+#instruction {
+    margin-bottom: 1rem;
+}
+
+#instruction-list {
+    list-style-type: decimal;
+    padding: 1.5rem;
+}
+
+#instruction li::marker {
+    color: #7d4860;
+    font-weight: bold;
+}
+
+.inst-li {
+    color: #8a8886;
+    font-weight: bold;
+    padding: 0 0 1rem 1rem;
+}
+
+.inst-li span{
+    font-weight: lighter;
+}
+
+/* Border-bottom */
+#ingredients,
+#instruction {
+    border-bottom: 1px solid #ccc;
+}
+
+/* Styling the Nutrition Table */
+#nutrition table {
+    font-family: "Outfit";
+    width: 100%;
+    margin-left: 3rem;
+    border-collapse: collapse;
+}
+
+#nutrition .row {
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between;
+}
+
+#nutrition .thead {
+    padding: 1rem;
+    font-weight: lighter;
+    color: #8a8886;
+    text-align: left;
+}
+
+#nutrition .tdata {
+    padding: 1rem;
+    color: #835c54;
+    font-weight: bold;
+    text-align: left;
+}
+
+#nutrition tr:last-child {
+    border-bottom: none;
+}
