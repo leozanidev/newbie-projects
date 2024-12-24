@@ -13,6 +13,16 @@ ul {
     list-style: none;
 }
 
+/* Flex Style All */
+#main-div,
+#prep-time,
+#ingredients,
+#instruction,
+img {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Styling the Main Content */
 #main-div {
     margin: 2rem auto;
@@ -124,14 +134,13 @@ img {
 /* Styling the Nutrition Table */
 #nutrition table {
     font-family: "Outfit";
-    width: 100%;
-    margin-left: 3rem;
+    width: 90%;
+    margin: 3rem;
     border-collapse: collapse;
 }
 
 #nutrition .row {
     border-bottom: 1px solid #ccc;
-    justify-content: space-between;
 }
 
 #nutrition .thead {
@@ -150,4 +159,20 @@ img {
 
 #nutrition tr:last-child {
     border-bottom: none;
+}
+
+/* Responsivity */
+@media (max-width: 375px) {
+    #main-div {
+        width: 90px;
+        height: 100px;
+        margin: 1rem;
+    }
+
+    #the-recipe {
+        width: 100px;
+    }
+    body {
+        overflow-x: hidden;
+    }
 }
